@@ -1,0 +1,286 @@
+@import url(../styles/fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-main{
+    background-color: #e6ebf0;
+    padding-bottom: 100px;
+}
+.nav a{
+    font-family: 'Man Bold';
+    color: #07172e;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav{
+    width: 398px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-main h1{
+    font-family: 'Man Bold';
+    font-weight: 700;
+    font-size: 3.3rem;
+    color: #07172e;
+    line-height: 61px;
+}
+.text-main p{
+    font-family: 'Man Reg';
+    font-size: 1.2rem;
+    color: #3c4148 ;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.text-main a{
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family: 'Man Sem';
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.main-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-course{
+    background-color: #e6ebf0;
+    padding-bottom: 110px;
+}
+.course h1{
+    font-family: 'Man Bold';
+    color: #07172e;
+    font-size: 2.63rem;
+    font-weight: 700;
+}
+.card{
+    width: 360px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.course a{
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family: 'Man Sem';
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.cards h3{
+    font-family: 'Man Bold';
+    color: #07172e;
+    font-weight: 700;
+    font-size: 1.1rem;
+
+    padding-top: 10px;
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-prob-lesson{
+    background-color: #e6ebf0;
+    padding-bottom: 100px;
+}
+.rectangle{
+    width: 100%;
+    height: 587px;
+    background-image: url(../imgs/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.rectangle h1{
+    font-family: 'Man Bold';
+    color: #07172e;
+    font-weight: 700;
+    font-size: 3.2rem;
+    padding-bottom: 15px;
+}
+.rectangle p{
+    font-family: 'Man Reg';
+    font-size: 1.2rem;
+    color: #3c4148 ;
+    padding-bottom: 60px;
+}
+.rectangle a{
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family: 'Man Sem';
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.rectangle{
+    padding-left: 140px;
+    padding-top: 160px;
+}
+.section-cards{
+    background-color: #e6ebf0;
+    padding-bottom: 100px;
+}
+.photo-on{
+    width: 560px;
+    height: 340px;
+    background-image: url(../imgs/6.jpg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-t h3{
+    font-family: 'Man Sem';
+    font-size: 1.3rem;
+    color: #07172e;
+    font-weight: 700;
+    padding-top: 25px;
+}
+.head-t h1{
+    font-family: 'Man Bold';
+    font-size: 3.5rem;
+    color: #07172e;
+    font-weight: 700;
+}
+.head-t p{
+    font-family: 'Man Reg';
+    font-size: 1.2rem;
+    color: #3c4148;
+}
+.rec-online p{
+    font-family: 'Man Bold';
+    font-size: 1rem;
+    color: #07172e;
+    font-weight: 700;
+    /* padding-left: 19px; */
+}
+.price h1{
+    font-family: 'Man Bold';
+    font-size: 3.5rem;
+    color: #07172e;
+    font-weight: 700;
+}
+.price a{
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family: 'Man Sem';
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.rectangle-2{
+    width: 273px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.online-course{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.rec-online{
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+.star{
+    padding-right: 19px;
+}
+.star, .time, .kalend{
+    display: flex;
+    align-items: center;
+}
+.reit{
+    padding-left: 19px;
+}
+.time{
+    padding-left: 19px;
+}
+.star img{
+    padding-right: 5px;
+}
+.kalend{
+    padding-right: 19px;
+}
+.time img{
+    padding-right: 5px;
+}
+.kalend img{
+    padding-right: 5px;
+}
+.price{
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+.text-online{
+    padding-left: 50px;
+    /* padding-bottom: 50px; */
+}
