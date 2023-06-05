@@ -172,7 +172,7 @@ a{
 }
 .section-cards{
     background-color: #e6ebf0;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 .photo-on{
     width: 560px;
@@ -295,6 +295,12 @@ a{
     font-weight: 600;
     font-size: 1.1rem;
 }
+.knopki-tr{
+    width: 605px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .text-2{
     font-family: 'Man Reg';
     color: #3c4148;
@@ -311,6 +317,9 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.cart img{
+    height: 230px;
 }
 .cart h3{
     font-family: 'Man Bold';
@@ -334,5 +343,289 @@ a{
     width: 1200px;
     padding-top: 45px;
     display: flex;
+    justify-content: space-between;
+}
+.trener{
+    padding-top: 70px;
+}
+
+.section-about-us{
+    width: 100%;
+    background-color: #f1f4f8;
+    padding-bottom: 120px;
+}
+.photo-about{
+    background-image: url(../imgs/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 680px;
+    border-radius: 40px;
+}
+.text-about h1{
+    font-family: 'Man Bold';
+    font-weight: 700;
+    font-size: 3rem;
+    color: #07172e;
+
+    padding-bottom: 30px;
+}
+.text-about p{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #3c4148;
+    padding-bottom: 100px;
+}
+.text-about a{
+    padding: 15px 70px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family: 'Man Sem';
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.about{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-work{
+    background-color: #e6ebf0;
+    padding-bottom: 130px;
+}
+.work{
+    padding-top: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.work h1{
+    font-family: 'Man Bold';
+    font-weight: 700;
+    font-size: 3rem;
+    color: #07172e;
+}
+.pun{
+    font-family: 'Man Sem';
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    background-color: #3586ff;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.embl h3{
+    font-family: 'Man Sem';
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #07172e;
+    padding-bottom: 5px;
+}
+.embl .desc{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+}
+.puncts{
+    padding-top: 50px;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-form{
+    background-color: #e6ebf0;
+    padding-bottom: 130px;
+}
+.plane{
+    width: 1160px;
+    height: 970px;
+    border-radius: 25px;
+    /* background: rgb(190,190,190); */
+    background: linear-gradient(90deg, rgb(228, 228, 228) 0%, rgba(241,241,241,1) 100%);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-plane h1{
+    font-family: 'Man Bold';
+    font-weight: 700;
+    font-size: 3rem;
+    color: #07172e;
+
+    padding-bottom: 20px;
+}
+.text-plane p{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+    text-align: center;
+}
+.text-plane{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name, .phone, .e-mail label{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+
+
+}
+.forma-plane .name {
+    padding-right: 40px;
+}
+.win{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.name input{
+    background-color: #eef1f4;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px 100px 20px 30px;
+    margin-top: 15px;
+}
+.phone input{
+    background-color: #eef1f4;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px 100px 20px 30px;
+    padding-left: 60px;
+    margin-top: 15px;
+}
+.e-mail input{
+    background-color: #eef1f4;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px 470px 20px 30px;
+    /* width: 100%; */
+    margin-top: 15px;
+}
+.e-mail{
+    padding-top: 20px;
+}
+.purpose p{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+}
+.purpose label{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+}
+.sogl label{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+
+}
+.sogl{
+    padding-bottom: 70px;
+}
+form a{
+    padding: 15px 70px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family: 'Man Sem';
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.forma-plane{
+    padding-top: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name, .phone, .e-mail{
+    display: flex;
+    flex-direction: column;
+}
+.vert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purpose p{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.radio label{
+    padding-right: 20px;
+}
+.radio{
+    padding-bottom: 20px;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-footer{
+    background-color: #e8edf1;
+    padding-bottom: 50px;
+}
+.foot p{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #3c4148;
+}
+.foot a{
+    font-family: 'Man Reg';
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #3c4148;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-f{
+    width: 110px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
