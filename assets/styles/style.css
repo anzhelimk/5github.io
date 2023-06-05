@@ -284,3 +284,55 @@ a{
     padding-left: 50px;
     /* padding-bottom: 50px; */
 }
+.knopki-tr .kn{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+
+    font-family: 'Man Sem';
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.text-2{
+    font-family: 'Man Reg';
+    color: #3c4148;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.cart{
+    width: 260px;
+    height: 280px;
+    background-color: #f1f4f8;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart h3{
+    font-family: 'Man Bold';
+    color: #07172e;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.card-tr{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart p{
+    font-family: 'Man Reg';
+    color: #8b9095;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.text-cards{
+    width: 1200px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
