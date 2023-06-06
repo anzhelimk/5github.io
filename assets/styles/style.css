@@ -287,13 +287,21 @@ a{
 .knopki-tr .kn{
     padding: 15px 40px;
     border-radius: 10px;
-    background-color: #3586ff;
-    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    background-color: white;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);
 
     font-family: 'Man Sem';
-    color: white;
+    color: #07172e;
     font-weight: 600;
     font-size: 1.1rem;
+    transition: all ease 0.2s;
+
+}
+.knopki-tr .kn:hover{
+    background-color: #3586ff;
+    color: white;
+    transition: all ease 0.2s;
+
 }
 .knopki-tr{
     width: 605px;
