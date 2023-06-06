@@ -20,6 +20,21 @@ a{
     background-color: #e6ebf0;
     padding-bottom: 100px;
 }
+.icons-main{
+    width: 167px;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #f1f4f8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nav a{
     font-family: 'Man Bold';
     color: #07172e;
@@ -34,6 +49,7 @@ a{
 
 }
 .header{
+    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,6 +82,7 @@ a{
     font-size: 1.1rem;
 }
 .main-head{
+    padding-top: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -637,3 +654,232 @@ form a{
     align-items: center;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width: 480px){
+    .container {
+        width: 100%;
+    } 
+    .header{
+        flex-direction: column;
+    }
+    .logo{
+        padding-bottom: 10px;
+    }
+    .icons-main{
+        padding-top: 15px;
+    }
+    .text-main h1{
+        font-size: 2.7rem;
+        line-height: 47px;
+    }
+    .main-head{
+        padding-top: 30px;
+        flex-direction: column;
+    }
+    .text-main{
+        text-align: left;
+    }
+    .text-main a{
+       display: flex;
+       justify-content: center;
+    }
+    .text-main p{
+        font-size: 1rem;
+        padding-bottom: 70px;
+    }
+    .photo-main img{
+        width: 100%;
+        padding-top: 70px;
+    }
+    .cards{
+        padding-bottom: 0px;
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 45px;
+    }
+    .course a{
+        margin-top: 50px;
+    }
+    .rectangle{
+        width: 91%;
+        height: 212px;
+
+        padding-left: 31px;
+        padding-top: 50px;
+    }
+    .rectangle h1{
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+    .rectangle p{
+        font-size: 0.5rem;
+        padding-bottom: 30px;
+    }
+    .rectangle a{
+        font-size: 0.7rem;
+        padding: 10px 26px;
+    }
+    .window{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-prob-lesson{
+        padding-bottom: 40px;
+    }
+    .head-t h3{
+        font-size: 1rem;
+    }
+    .head-t h1{
+        font-size: 4rem;
+    }
+    .head-t p{
+        width: 453px;
+    }
+    .rec-online{
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 30px;
+
+        width: 380px;
+    }
+    .rectangle-2{
+        margin-bottom: 20px;
+    }
+    .price{
+        padding-top: 24px;
+        /* flex-direction: column; */
+        width: 370px;
+        justify-content: space-between;
+    }
+    .price h1{
+        font-size: 2.3rem;
+    }
+    .price a{
+        font-size: 1rem;
+        padding: 14px 54px;
+    }
+    .knopki-tr{
+        padding-left: 30px;
+        width: 448px
+    }
+    .knopki-tr .kn{
+        padding: 15px 24px;
+        font-size: 1rem;
+    }
+    .text-cards{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .text-cards .text-2{
+        padding-bottom: 30px;
+    }
+    .card-tr{
+        width: 410px;
+        flex-direction: column;
+    }
+    .cart{
+        margin-bottom: 40px;
+    }
+    .text-about h1{
+        font-size: 1.5rem;
+        padding-bottom: 13px;
+    }
+    .text-about p{
+        padding-bottom: 62px;
+    }
+    .text-about{
+        padding-left: 30px;
+    }
+    .about{
+        padding-top: 70px;
+        flex-direction: column;
+    }
+    .photo-about{
+        margin-top: 50px;
+        height: 250px;
+        width: 360px;
+    }
+    .puncts{
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+
+        width: 256px;
+    }
+    .embl{
+        margin-bottom: 20px;
+    }
+    .plane{
+        width: 440px;
+        height: 960px;
+    }
+    .text-plane{
+        padding-top: 35px;
+    }
+    .text-plane h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .text-plane p{
+        width: 430px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .vert{
+        flex-direction: column;
+    }
+    .win{
+        flex-direction: column;
+    }
+    .phone{
+        margin-top: 20px;
+    }
+    .name input{
+        /* padding: 20px 130px 20px 30px; */
+        width: 100%;
+    }
+    .e-mail input{
+        padding: 20px 130px 20px 30px;
+        width: 100%;
+    }
+    .purpose{
+        padding-left: 30px;
+    }
+    .sogl{
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    .social-f{
+        width: 70px;
+        margin-right: 26px;
+    }
+    .foot{
+        width: 480px;
+    }
+    .foot p{
+        font-size: 1rem;
+        padding-left: 20px;
+    }
+    .foot a{
+        font-size: 1rem;
+    }
+    .cards{
+        width: auto;
+    }
+    .text-cards{
+        width: auto;
+    }
+    .online-course{
+        flex-direction: column;
+    }
+    .photo-on{
+        width: 440px;
+        height: 270px;
+    }
+    .text-online{
+        padding-left: 10px;
+    }
+} 
